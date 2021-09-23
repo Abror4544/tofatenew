@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Статистика</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <nav class="menu">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </a>
+        <div class="header-menu">
+            <div class="header-menu__panel">
+                <a href="#/" class="logo">
+                    <img src="images/logo.png" alt="Logo">
+                </a>
+                <img src="images/icons/close.svg" class="close" alt="Close">
+            </div>
+            <div class="header-menu__links">
+                <a href="girls.html" class="header-menu__link border">Девушки</a>
+                <a href="gifts.html" class="header-menu__link">Призы</a>
+                <a href="stats.html" class="header-menu__link">Статистика</a>
+            </div>
+            <div class="header-menu__buttons">
+                <a href="javascript:;" class="register go_to_app">
+                    Регистрация
+                </a>
+                <a href="javascript:;" class="button go_to_app">
+                    Войти
+                </a>
+            </div>
+            <div class="shadow"></div>
+        </div>
+        <div class="menu__bar">
+            <img src="images/icons/bar.svg" class="bar" alt="Bar">
+        </div>
+    </nav>
+
+    <section class="rating">
+        <div class="container">
+            <div class="page-title-block">
+                <h4 class="page__title">Рейтинг</h4>
+                <p class="page__text">Нежная брюнетка, с покладистым и мягким характером, домашняя и добрая.
+                    Любительница читать и рисовать. Нежная брюнетка, с покладистым и мягким характером, домашняя и
+                    добрая. Любительница читать и рисовать.</p>
+            </div>
+            <table class="rating-table">
+                <thead>
+                    <tr>
+                        <th>Место</th>
+                        <th>Данные</th>
+                        <th>Баллы</th>
+                        <th>Инстаграм</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="place"><span>1</span>
+                            <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/1.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Александра</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td class="place"><span>2</span>
+                            <div class="result down"><img src="images/icons/ratingdown.svg" alt="Arrow">6</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/2.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Кира</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@marciacristina</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>3</span>
+                            <div class="result down"><img src="images/icons/ratingdown.svg" alt="Arrow">6</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/3.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Алина</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" class="instagram none">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username"></p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>4</span>
+                            <div class="result down"><img src="images/icons/ratingdown.svg" alt="Arrow">6</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/4.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Мия</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@gabrielcantarin</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>5</span>
+                            <div class="result down"><img src="images/icons/ratingdown.svg" alt="Arrow">6</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/5.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Дарина</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@marcelosalomao</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place">
+                            <span>6</span>
+                            <div class="result down">
+                                <img src="images/icons/ratingdown.svg" alt="Arrow">6
+                            </div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/6.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Милана</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" class="instagram none">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username"></p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>7</span>
+                            <div class="result down"><img src="images/icons/ratingdown.svg" alt="Arrow">6</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/7.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Арина</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@pedrogadelha</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>8</span>
+                            <div class="result down"><img src="images/icons/ratingdown.svg" alt="Arrow">6</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/8.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Мелания</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@izabellarodrigues</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td class="place"><span>9</span>
+                            <div class="result balance"><img src="images/icons/ratingline.svg" alt="Arrow">0</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/9.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Кристина</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@gabrielcantarin</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>10</span>
+                            <div class="result balance"><img src="images/icons/ratingline.svg" alt="Arrow">0</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/10.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Камила</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@brunaramalho</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>11</span>
+                            <div class="result balance"><img src="images/icons/ratingline.svg" alt="Arrow">0</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/11.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Таисия</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@andrebiachi</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>12</span>
+                            <div class="result balance"><img src="images/icons/ratingline.svg" alt="Arrow">0</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/12.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Ксения</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@tadeubonini</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>13</span>
+                            <div class="result balance"><img src="images/icons/ratingline.svg" alt="Arrow">0</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/13.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Анастасия</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@annaclaramm</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>14</span>
+                            <div class="result balance"><img src="images/icons/ratingline.svg" alt="Arrow">0</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/14.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Ярослава</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@carolinedias</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>15</span>
+                            <div class="result balance"><img src="images/icons/ratingline.svg" alt="Arrow">0</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/15.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Полина</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@carolfernandes</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>16</span>
+                            <div class="result down"><img src="images/icons/ratingdown.svg" alt="Arrow">6</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/1.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Ульяна</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@afonsoinocente</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>17</span>
+                            <div class="result down"><img src="images/icons/ratingdown.svg" alt="Arrow">6</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/17.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Яна</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@amandadasilva</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>18</span>
+                            <div class="result down"><img src="images/icons/ratingdown.svg" alt="Arrow">6</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/18.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Николь</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@johndue</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>19</span>
+                            <div class="result down"><img src="images/icons/ratingdown.svg" alt="Arrow">6</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/19.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">София</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@isabellasava</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="place"><span>20</span>
+                            <div class="result down"><img src="images/icons/ratingdown.svg" alt="Arrow">6</div>
+                        </td>
+                        <td>
+                            <div class="info-part">
+                                <div class="img-block">
+                                    <img src="images/rating/20.png" alt="Person">
+                                </div>
+                                <div class="info">
+                                    <p class="name">Анна</p>
+                                    <p class="status">36 лет, стилист</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <p class="score">200 365 баллов</p>
+                        </td>
+                        <td>
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">@alexandreestolano</p>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="rating-mobile">
+                <div class="info-name">
+                    <p>Данные</p>
+                    <p>Место</p>
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>1</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>2</span>
+                                <div class="result down"><img src="images/icons/ratingdown.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>3</span>
+                                <div class="result down"><img src="images/icons/ratingdown.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>4</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>                
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>5</span>
+                                <div class="result balance"><img src="images/icons/ratingline.svg" alt="Arrow">0</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>     
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>6</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>7</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>8</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>9</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>10</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>11</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>12</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>13</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>14</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>15</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>16</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>17</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>18</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>19</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>           
+                <div class="rating-item">
+                    <div class="rating-item-imgblock">
+                        <img src="images/rating/1.png" alt="Avatar">
+                    </div>
+                    <div class="rating-item-content">
+                        <div class="rating-item-info">
+                            <div class="info">
+                                <p class="name">Александра</p>
+                                <p class="status">36 лет, стилист</p>
+                            </div>
+                            <div class="place">
+                                <span>20</span>
+                                <div class="result up"><img src="images/icons/ratingup.svg" alt="Arrow">6</div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <a href="#/" target="_blank" class="instagram">
+                                <div class="iconblock">
+                                    <img src="images/icons/instagram.svg" alt="Icon">
+                                </div>
+                                <p class="username">Ivanov_ia</p>
+                            </a>
+                            <p class="score">200 365 баллов</p>
+                        </div>
+                        <a href="top.html" class="table_link">Топ-10 претендентов</a>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer__logo">
+                    <img src="images/footerlogo.png" alt="logo">
+                    <p class="footer__logotext">Самая реалистичная игра в любовь</p>
+                </div>
+                <div class="footer-menu">
+                    <ul class="footer-menu__list active">
+                        <div class="footer-menu__title">
+                            <p class="footer-menu__target">
+                                Product
+                            </p>
+                            <img src="images/icons/miniarrow.svg" alt="arrow">
+                        </div>
+                        <li><a href="#/">Starter Features</a></li>
+                        <li><a href="#/">Pro Features</a></li>
+                        <li><a href="#/">Boss Mode Features</a></li>
+                        <li><a href="#/">Reviews</a></li>
+                        <li><a href="#/">Pricing</a></li>
+                    </ul>
+                    <ul class="footer-menu__list">
+                        <div class="footer-menu__title">
+                            <p class="footer-menu__target">
+                                Resources
+                            </p>
+                            <img src="images/icons/miniarrow.svg" alt="arrow">
+                        </div>
+                        <li><a href="#/">Facebook Group</a></li>
+                        <li><a href="#/">Affiliate Partners</a></li>
+                        <li><a href="#/">The Jarvis Blog</a></li>
+                        <li><a href="#/">Expert Trainings</a></li>
+                    </ul>
+                    <ul class="footer-menu__list">
+                        <div class="footer-menu__title">
+                            <p class="footer-menu__target">
+                                Company
+                            </p>
+                            <img src="images/icons/miniarrow.svg" alt="arrow">
+                        </div>
+                        <li><a href="#/">About The Team</a></li>
+                        <li><a href="#/">Brand Style Guide</a></li>
+                        <li><a href="#/">200 E. 6th Street</a></li>
+                        <li><a href="#/">Suite 310</a></li>
+                        <li><a href="#/">Austin, TX 78701</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-soc">
+                    <a href="#/">
+                        <img src="images/icons/twitter.svg" alt="icon">
+                    </a>
+                    <a href="#/">
+                        <img src="images/icons/facebook.svg" alt="icon">
+                    </a>
+                    <a href="#/">
+                        <img src="images/icons/instagram.svg" alt="icon">
+                    </a>
+                    <a href="#/">
+                        <img src="images/icons/linkedin.svg" alt="icon">
+                    </a>
+                </div>
+                <div class="footer-additional">
+                    <a href="#/" class="inc">Privacy</a>
+                    <a href="#/" class="inc">Terms</a>
+                    <p class="inc">@ 2021 ToFate</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
