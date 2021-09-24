@@ -6,7 +6,7 @@
   outline-style: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Ubuntu-Regular";
+  font-family: "Ubuntu-Regular", sans-serif;
 }
 
 @font-face {
@@ -382,7 +382,7 @@ input:focus:-ms-textarea-placeholder {
   -webkit-box-shadow: 0px 4px 19px #00278a, 0px 0px 11px rgba(45, 230, 255, 0.43);
           box-shadow: 0px 4px 19px #00278a, 0px 0px 11px rgba(45, 230, 255, 0.43);
   border-radius: 49px;
-  font-family: "Ubuntu-Bold";
+  font-family: "Ubuntu-Bold", sans-serif;
   font-size: 18px;
   color: #ffffff;
   text-shadow: 0px 0px 3px #20aec9;
@@ -395,7 +395,7 @@ input:focus:-ms-textarea-placeholder {
 }
 
 .title {
-  font-family: "Ubuntu-Bold";
+  font-family: "Ubuntu-Bold", sans-serif;
   font-size: 42px;
   position: relative;
   color: transparent;
@@ -557,7 +557,7 @@ main .container {
 }
 
 .page-title-block .page__title {
-  font-family: "Ubuntu-Bold";
+  font-family: "Ubuntu-Bold", sans-serif;
   font-size: 37px;
   line-height: 145%;
   color: #ffffff;
@@ -565,7 +565,7 @@ main .container {
 }
 
 .page-title-block .page__text {
-  font-family: "NotoSans-Regular";
+  font-family: "NotoSans-Regular", sans-serif;
   font-size: 14px;
   line-height: 166.5%;
   color: #89a3af;
@@ -679,7 +679,7 @@ section.gift .gift-top__titleblock .line {
 }
 
 section.gift .gift-top__titleblock .gift__slogan {
-  font-family: "Ubuntu-Bold";
+  font-family: "Ubuntu-Bold", sans-serif;
   font-size: 28px;
   line-height: 145%;
   text-align: center;
@@ -754,7 +754,7 @@ section.gift .gift-main__buttons .button {
 
 section.gift .gift-main__buttons .girls_link {
   padding: 20.5px 39px;
-  font-family: "Ubuntu-Bold";
+  font-family: "Ubuntu-Bold", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #ffffff;
@@ -807,7 +807,7 @@ section.choice .choice__frame-top {
 }
 
 section.choice .choice__slogan {
-  font-family: "Ubuntu-Bold";
+  font-family: "Ubuntu-Bold", sans-serif;
   font-size: 37px;
   line-height: 145%;
   text-align: center;
@@ -915,7 +915,7 @@ section.choice .choice-model__instagram img {
 }
 
 section.choice .choice-model__instagram .soc__text {
-  font-family: "Ubuntu-Bold";
+  font-family: "Ubuntu-Bold", sans-serif;
   font-size: 14px;
   line-height: 145%;
   color: #ffffff;
@@ -1153,7 +1153,7 @@ section.tutorial .tutorial__number-effect {
 }
 
 section.tutorial .tutorial__number {
-  font-family: "Ubuntu-Bold";
+  font-family: "Ubuntu-Bold", sans-serif;
   font-size: 50px;
   line-height: 145%;
   color: transparent;
@@ -1170,7 +1170,7 @@ section.tutorial .tutorial-texts {
 }
 
 section.tutorial .tutorial__text {
-  font-family: "Ubuntu-Light";
+  font-family: "Ubuntu-Light", sans-serif;
   font-size: 21px;
   line-height: 170%;
   color: #8aabd3;
@@ -1182,7 +1182,7 @@ section.banners {
 }
 
 section.banners .banners__title-block .banners__title {
-  font-family: "Ubuntu-Bold";
+  font-family: "Ubuntu-Bold", sans-serif;
   font-size: 37px;
   line-height: 145%;
   text-align: center;
@@ -1197,7 +1197,7 @@ section.banners .banners__title-block .banners__title .light {
 }
 
 section.banners .banners__title-block .banners__slogan {
-  font-family: "Ubuntu-Bold";
+  font-family: "Ubuntu-Bold", sans-serif;
   font-size: 32px;
   line-height: 145%;
   text-align: center;
@@ -1317,7 +1317,7 @@ section.app .app-panel {
 }
 
 section.app .app__title {
-  font-family: "Ubuntu-Bold";
+  font-family: "Ubuntu-Bold", sans-serif;
   font-size: 31px;
   line-height: 145%;
   color: #ffffff;
@@ -1349,7 +1349,7 @@ section.app .app-rate {
 }
 
 section.app .app-rate__text {
-  font-family: "Lato-Regular";
+  font-family: "Lato-Regular", sans-serif;
   font-size: 14px;
   line-height: 158%;
   color: #ffffff;
@@ -1357,7 +1357,7 @@ section.app .app-rate__text {
 }
 
 section.app .app-description__text {
-  font-family: "Ubuntu-Light";
+  font-family: "Ubuntu-Light", sans-serif;
   font-size: 16px;
   line-height: 158%;
   color: #ffffff;
@@ -1403,7 +1403,7 @@ section.invite .invite-block .light {
 }
 
 section.invite .invite-block .invite__text {
-  font-family: "Ubuntu-Light";
+  font-family: "Ubuntu-Light", sans-serif;
   font-size: 18px;
   line-height: 158%;
   text-align: center;
@@ -1443,7 +1443,7 @@ footer .footer__logo {
 }
 
 footer .footer__logotext {
-  font-family: "Raleway-Light";
+  font-family: "Raleway-Light", sans-serif;
   font-size: 16px;
   line-height: 145.4%;
   color: #838383;
@@ -1462,7 +1462,7 @@ footer .footer-menu__list {
 }
 
 footer .footer-menu__list li a {
-  font-family: "Lato-Light";
+  font-family: "Lato-Light", sans-serif;
   font-size: 16px;
   line-height: 158%;
   color: #838383;
@@ -1537,7 +1537,7 @@ footer .footer-additional {
 }
 
 footer .footer-additional .inc {
-  font-family: "Raleway-Light";
+  font-family: "Raleway-Light", sans-serif;
   font-size: 14px;
   line-height: 145.4%;
   color: #ffffff;
@@ -1573,7 +1573,7 @@ section.model .model-link.mobile {
 }
 
 section.model .model-link a {
-  font-family: "Ubuntu-Bold";
+  font-family: "Ubuntu-Bold", sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
@@ -1619,7 +1619,7 @@ section.model .model-info-content {
 }
 
 section.model .title {
-  font-family: "NotoSans-Bold";
+  font-family: "NotoSans-Bold", sans-serif;
   font-size: 76px;
   line-height: 145%;
 }
@@ -1639,7 +1639,7 @@ section.model .line .light {
 }
 
 section.model .model__description {
-  font-family: "NotoSans-Regular";
+  font-family: "NotoSans-Regular", sans-serif;
   font-size: 16px;
   line-height: 166.5%;
   color: #ffffff;
@@ -1965,7 +1965,7 @@ section.girls .girls-rating__title {
 }
 
 section.girls .girls-rating__number {
-  font-family: "Ubuntu-Bold";
+  font-family: "Ubuntu-Bold", sans-serif;
   font-size: 36px;
   line-height: 41px;
   text-align: center;
@@ -1978,27 +1978,27 @@ section.girls .girls-info {
 }
 
 section.girls .girls__name {
-  font-family: "NotoSans-Bold";
+  font-family: "NotoSans-Bold", sans-serif;
   font-size: 36px;
   line-height: 120.5%;
 }
 
 section.girls .girls__status {
-  font-family: "NotoSans-Bold";
+  font-family: "NotoSans-Bold", sans-serif;
   font-size: 12px;
   line-height: 166.5%;
   margin: 9px 0;
 }
 
 section.girls .girls__text {
-  font-family: "NotoSans-Regular";
+  font-family: "NotoSans-Regular", sans-serif;
   font-size: 12px;
   line-height: 166.5%;
   color: #ffffff;
 }
 
 section.girls .girls__morelink {
-  font-family: "NotoSans-Regular";
+  font-family: "NotoSans-Regular", sans-serif;
   font-size: 12px;
   line-height: 166.5%;
   -webkit-text-decoration-line: underline;
@@ -2081,7 +2081,7 @@ section.rating .rating-mobile .middle {
 
 section.rating thead th,
 section.rating .info-name p {
-  font-family: "NotoSans-Bold";
+  font-family: "NotoSans-Bold", sans-serif;
   font-size: 16px;
   line-height: 166.5%;
   color: #ffffff;
@@ -2138,7 +2138,7 @@ section.rating .place {
 }
 
 section.rating .place span {
-  font-family: "NotoSans-Bold";
+  font-family: "NotoSans-Bold", sans-serif;
   font-size: 18px;
   line-height: 166.5%;
   color: #ffffff;
@@ -2147,7 +2147,7 @@ section.rating .place span {
 }
 
 section.rating .place .result {
-  font-family: "NotoSans-Bold";
+  font-family: "NotoSans-Bold", sans-serif;
   font-size: 12px;
   line-height: 166.5%;
   display: -webkit-box;
@@ -2175,14 +2175,14 @@ section.rating .place .result.balance {
 }
 
 section.rating .name {
-  font-family: "NotoSans-Bold";
+  font-family: "NotoSans-Bold", sans-serif;
   font-size: 16px;
   line-height: 166.5%;
   color: #ffffff;
 }
 
 section.rating .status {
-  font-family: "NotoSans-Regular";
+  font-family: "NotoSans-Regular", sans-serif;
   font-size: 14px;
   line-height: 166.5%;
   color: #ffffff;
@@ -2190,7 +2190,7 @@ section.rating .status {
 }
 
 section.rating .score {
-  font-family: "NotoSans-Regular";
+  font-family: "NotoSans-Regular", sans-serif;
   font-size: 16px;
   line-height: 166.5%;
   color: #ffffff;
@@ -2224,7 +2224,7 @@ section.rating .instagram .iconblock {
 
 section.rating .instagram .username {
   margin-left: 16px;
-  font-family: "NotoSans-Regular";
+  font-family: "NotoSans-Regular", sans-serif;
   font-size: 14px;
   line-height: 166.5%;
   color: #ffffff;
@@ -2240,7 +2240,7 @@ section.rating .instagram.none .iconblock img {
 }
 
 section.rating .table_link {
-  font-family: "NotoSans-Regular";
+  font-family: "NotoSans-Regular", sans-serif;
   font-size: 16px;
   line-height: 166.5%;
   -webkit-text-decoration-line: underline;
@@ -2307,7 +2307,7 @@ section.top .top__mainlink img {
 }
 
 section.top .top__mainlink p {
-  font-family: "NotoSans-Regular";
+  font-family: "NotoSans-Regular", sans-serif;
   font-size: 16px;
   line-height: 166.5%;
   color: #ffffff;
@@ -2329,7 +2329,7 @@ section.top .title span {
 }
 
 section.top .top-infobanner__text {
-  font-family: "NotoSans-Regular";
+  font-family: "NotoSans-Regular", sans-serif;
   font-size: 14px;
   line-height: 166.5%;
   color: #89a3af;
@@ -2410,7 +2410,7 @@ section.top .rating-mobile .middle {
 
 section.top thead th,
 section.top .info-name p {
-  font-family: "NotoSans-Bold";
+  font-family: "NotoSans-Bold", sans-serif;
   font-size: 16px;
   line-height: 166.5%;
   color: #ffffff;
@@ -2454,7 +2454,7 @@ section.top .rating-table .img-block {
 }
 
 section.top .day {
-  font-family: "NotoSans-Regular";
+  font-family: "NotoSans-Regular", sans-serif;
   font-size: 16px;
   line-height: 166.5%;
   color: #929292;
@@ -2470,7 +2470,7 @@ section.top .place {
 }
 
 section.top .place span {
-  font-family: "NotoSans-Bold";
+  font-family: "NotoSans-Bold", sans-serif;
   font-size: 18px;
   line-height: 166.5%;
   color: #ffffff;
@@ -2479,7 +2479,7 @@ section.top .place span {
 }
 
 section.top .place .result {
-  font-family: "NotoSans-Bold";
+  font-family: "NotoSans-Bold", sans-serif;
   font-size: 12px;
   line-height: 166.5%;
   display: -webkit-box;
@@ -2507,14 +2507,14 @@ section.top .place .result.balance {
 }
 
 section.top .name {
-  font-family: "NotoSans-Bold";
+  font-family: "NotoSans-Bold", sans-serif;
   font-size: 16px;
   line-height: 166.5%;
   color: #ffffff;
 }
 
 section.top .status {
-  font-family: "NotoSans-Regular";
+  font-family: "NotoSans-Regular", sans-serif;
   font-size: 14px;
   line-height: 166.5%;
   color: #ffffff;
@@ -2522,7 +2522,7 @@ section.top .status {
 }
 
 section.top .score {
-  font-family: "NotoSans-Regular";
+  font-family: "NotoSans-Regular", sans-serif;
   font-size: 16px;
   line-height: 166.5%;
   color: #ffffff;
@@ -2592,7 +2592,7 @@ section.gifts .gifts-imgblock img {
 }
 
 section.gifts .gifts-item__score {
-  font-family: "NotoSans-Bold";
+  font-family: "NotoSans-Bold", sans-serif;
   font-size: 24px;
   line-height: 166.5%;
   color: transparent;
@@ -2614,7 +2614,7 @@ section.gifts .gifts-item__title {
 }
 
 section.gifts .gifts-item__text {
-  font-family: "NotoSans-Regular";
+  font-family: "NotoSans-Regular", sans-serif;
   font-size: 14px;
   line-height: 166.5%;
   color: #89a3af;
@@ -3440,7 +3440,7 @@ section.gifts .shadow {
     font-size: 21px;
     line-height: 158%;
     margin: 30px 0 33px;
-    font-family: "Ubuntu-Regular";
+    font-family: "Ubuntu-Regular", sans-serif;
   }
 
   section.choice .swiper-slide {
@@ -3671,7 +3671,7 @@ section.gifts .shadow {
   section.banners .banners__title-block .banners__slogan {
     font-size: 21px;
     line-height: 158%;
-    font-family: "Ubuntu-Regular";
+    font-family: "Ubuntu-Regular", sans-serif;
   }
 
   section.banners .swiper-wrapper {
